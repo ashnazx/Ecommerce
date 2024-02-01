@@ -1,0 +1,67 @@
+h1{
+    /*color: brown;*/
+
+}
+
+body{
+    /* background-color:blue ; */
+    font-size: 40px ;
+    margin: 0px;
+    background-image: url("../images/pic.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+img{
+    border: 2px;
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+    object-fit: cover;
+}
+
+.container{
+    background-color: red;
+    border: 0px solid green ;
+    border-radius: 20px;
+}
+
+.container div{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    border: 0px solid green;
+    background-color: brown;
+
+}
+.container div img{
+    width:100px ;
+    height: 80px;
+}
+
+.container div p{
+    font-size: 10px;
+}
+
+nav{
+    width: 400px;
+    height: 500px;
+    background-image:url("../images/img.avif") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: brown;
+}
+
+div{
+    background-image:url("../images/balloons/phtoo.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 500px;
+    height: 400px;
+}
+h1{
+    /* color: rgb(31, 59, 30) */
+    color: rgba(14, 6,  48, 0.865);
+}
